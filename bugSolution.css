@@ -1,0 +1,11 @@
+/* bugSolution.css */
+#parent {
+  width: 500px; /* Explicitly set the parent width */
+}
+
+#child {
+  width: calc(100% - 10px);
+  background-color: lightblue;
+  padding: 5px;
+}
+/*In this solution the parent element has an explicitly defined width, ensuring that `calc()` performs as expected.*/
